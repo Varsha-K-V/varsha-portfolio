@@ -25,6 +25,7 @@ function Projects() {
 
             <div className="project-links">
               <a href={project.github} target="_blank">GitHub</a>
+              <a href={project.live} target="_blank">Live Demo</a>
             </div>
           </div>
         ))}
