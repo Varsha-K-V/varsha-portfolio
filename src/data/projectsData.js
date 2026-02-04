@@ -7,6 +7,17 @@ import kfcImg from "../assets/projects/kfc.png"
 const projectsData = [
   {
     id: 1,
+    title: "Dry Fruit Bazar",
+    image:dryfruitbazarImg,
+    description:
+      "A full-stack e-commerce application built using Node.js, Express, MongoDB, and EJS. Includes authentication, cart, orders, admin panel, product variants, and order management.",
+    tech: ["Node.js", "Express", "MongoDB", "EJS"],
+    github: "https://github.com/Varsha-K-V/dry-fruit-bazar",
+    live: "https://lnkd.in/ePb6VvrT"
+  },
+
+  {
+    id: 2,
     title: "MensCart",
     image:menscartImg,
     description:
@@ -16,16 +27,6 @@ const projectsData = [
     live: "https://menscart-git-main-varsha-k-vs-projects.vercel.app/"
   },
 
-  {
-    id: 2,
-    title: "Dry Fruit Bazar",
-    image:dryfruitbazarImg,
-    description:
-      "A full-stack e-commerce application built using Node.js, Express, MongoDB, and EJS. Includes authentication, cart, orders, admin panel, product variants, and order management.",
-    tech: ["Node.js", "Express", "MongoDB", "EJS"],
-    github: "https://github.com/Varsha-K-V/dry-fruit-bazar",
-    live: "https://lnkd.in/ePb6VvrT"
-  },
 
   {
     id: 3,
